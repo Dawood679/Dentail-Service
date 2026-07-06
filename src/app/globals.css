@@ -1,26 +1,65 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  /* Corporate blue palette */
+  --color-cloud-50: #f7faff;
+  --color-cloud-100: #eef3fc;
+  --color-cloud-200: #dfe8f7;
+  --color-mist-300: #c7d7f2;
+  --color-brand-400: #5a86f5;
+  --color-brand-500: #2f6fed;
+  --color-brand-600: #2457c4;
+  --color-sky-400: #7fc1fb;
+  --color-sky-500: #4fa3f7;
+  --color-sky-600: #2f6fb0;
+  --color-ink-500: #64748b;
+  --color-ink-700: #3c4b63;
+  --color-ink-900: #16233b;
+
+  /* Flat corporate-card shadows (single soft drop-shadow, no dual-tone/inset) */
+  --shadow-card-sm: 0 4px 14px -6px rgba(22, 35, 59, 0.14);
+  --shadow-card: 0 10px 30px -12px rgba(22, 35, 59, 0.18);
+  --shadow-card-lg: 0 20px 45px -16px rgba(22, 35, 59, 0.24);
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
+  --color-cloud-50: var(--color-cloud-50);
+  --color-cloud-100: var(--color-cloud-100);
+  --color-cloud-200: var(--color-cloud-200);
+  --color-mist-300: var(--color-mist-300);
+  --color-brand-400: var(--color-brand-400);
+  --color-brand-500: var(--color-brand-500);
+  --color-brand-600: var(--color-brand-600);
+  --color-sky-400: var(--color-sky-400);
+  --color-sky-500: var(--color-sky-500);
+  --color-sky-600: var(--color-sky-600);
+  --color-ink-500: var(--color-ink-500);
+  --color-ink-700: var(--color-ink-700);
+  --color-ink-900: var(--color-ink-900);
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --shadow-card-sm: var(--shadow-card-sm);
+  --shadow-card: var(--shadow-card);
+  --shadow-card-lg: var(--shadow-card-lg);
+
+  --radius-xl: 1rem;
+  --radius-2xl: 1.25rem;
+  --radius-3xl: 1.75rem;
+
+  --font-sans: var(--font-poppins);
+  --font-display: var(--font-fraunces);
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(180deg, var(--color-cloud-50), var(--color-cloud-100) 45%, var(--color-cloud-50));
+  color: var(--color-ink-700);
+  font-family: var(--font-sans), ui-sans-serif, system-ui, sans-serif;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
 }
