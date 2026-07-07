@@ -14,7 +14,8 @@ export function AboutPreview() {
         <AnimatedSection className="relative pb-10 pr-6">
           <div className="relative aspect-[3/4] w-4/5 overflow-hidden rounded-3xl shadow-card-lg">
             <Image
-              src={pravatarUrl(15, 700)}
+              src="/bestt.jpeg"
+
               alt="Dentist reviewing patient records on a tablet"
               fill
               className="object-cover"
@@ -23,7 +24,7 @@ export function AboutPreview() {
           </div>
           <div className="absolute -right-2 top-6 aspect-square w-2/5 overflow-hidden rounded-2xl shadow-card-lg ring-4 ring-cloud-50">
             <Image
-              src={picsumUrl("dentalux-exterior", 400, 400)}
+              src="/treat.jpeg"
               alt="Willowbrook Dental Studio building exterior"
               fill
               className="object-cover"
@@ -32,7 +33,7 @@ export function AboutPreview() {
           </div>
           <div className="absolute bottom-2 left-4 hidden aspect-square w-1/3 overflow-hidden rounded-2xl shadow-card-lg ring-4 ring-cloud-50 sm:block">
             <Image
-              src={picsumUrl("dentalux-interior", 320, 320)}
+              src="/lightning.jpeg"
               alt="Modern treatment room interior"
               fill
               className="object-cover"

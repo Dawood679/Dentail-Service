@@ -21,6 +21,10 @@ export const metadata: Metadata = {
   title: "Willowbrook Dental Studio | Gentle Care, Modern Smiles",
   description:
     "Willowbrook Dental Studio offers gentle, modern dental care for the whole family — from routine checkups to complete smile makeovers.",
+  icons: {
+    icon: [{ url: "/teeth.png", type: "image/png" }],
+    apple: [{ url: "/teeth.png", type: "image/png" }],
+  },
 };
 
 export default function RootLayout({

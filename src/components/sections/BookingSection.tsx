@@ -11,7 +11,7 @@ export function BookingSection() {
         <AnimatedSection className="relative">
           <div className="relative aspect-[4/3] w-full overflow-hidden rounded-3xl shadow-card-lg">
             <Image
-              src={pravatarUrl(21, 700)}
+              src="/smile.png"
               alt="Smiling patient ready for their appointment"
               fill
               className="object-cover"

@@ -30,7 +30,8 @@ export const services: Service[] = [
       "Porcelain veneers, bonding, and full smile makeovers crafted to enhance your natural features and boost your confidence.",
     icon: Smile,
     highlights: ["Porcelain veneers", "Composite bonding", "Full smile design"],
-    imageSeed: "dentalux-makeover",
+    imageSeed: "hero-image",
+    localImage: "/hero.jpeg",
   },
   {
     slug: "teeth-whitening",

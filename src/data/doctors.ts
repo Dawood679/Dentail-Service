@@ -58,6 +58,7 @@ export const doctors: Doctor[] = [
     credentials: "DDS, Pediatric Dentistry Certificate",
     bio: "Dr. Okafor makes visits fun for our youngest patients, building trust and healthy habits that last a lifetime.",
     initials: "JO",
+    localImage: "/doctor.jpeg",
     accent: "teal",
     photoId: 33,
     yearsExperience: 7,

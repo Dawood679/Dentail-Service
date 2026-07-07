@@ -13,7 +13,7 @@ const features = [
 
 export function FeatureStrip() {
   return (
-    <section className="px-6 py-10">
+    <section className="px-6 py-10 mt-10 sm:mt-16 lg:mt-20">
       <AnimatedSection className="mx-auto -mt-16 max-w-6xl rounded-3xl bg-white p-6 shadow-card-lg sm:p-8">
         <Carousel itemClassName="w-40 sm:w-auto">
           {features.map((feature) => (

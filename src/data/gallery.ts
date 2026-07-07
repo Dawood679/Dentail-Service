@@ -1,14 +1,21 @@
 import type { GalleryImage } from "@/types";
 
 export const galleryImages: GalleryImage[] = [
-  { id: "g1", seed: "dentalux-gallery-1", alt: "Reception area at Willowbrook Dental Studio", width: 480, height: 600 },
+  {
+    id: "g1",
+    seed: "dentalux-gallery-1",
+    alt: "Reception area at Willowbrook Dental Studio",
+    width: 480,
+    height: 600,
+    localImage: "/group.png",
+  },
   {
     id: "g2",
     seed: "dentalux-gallery-2",
     alt: "Close-up of a dental implant crown being placed",
     width: 480,
     height: 320,
-    localImage: "/dental-implants-closeup.jpg",
+    localImage: "/light.jpeg",
   },
   {
     id: "g3",
@@ -18,8 +25,22 @@ export const galleryImages: GalleryImage[] = [
     height: 384,
     localImage: "/root-canal-model.jpg",
   },
-  { id: "g4", seed: "dentalux-gallery-4", alt: "Sterilization equipment in the studio", width: 480, height: 360 },
-  { id: "g5", seed: "dentalux-gallery-5", alt: "Patient smiling after a whitening treatment", width: 480, height: 600 },
+  {
+    id: "g4",
+    seed: "dentalux-gallery-4",
+    alt: "Sterilization equipment in the studio",
+    width: 480,
+    height: 360,
+    localImage: "/office 2.jpeg",
+  },
+  {
+    id: "g5",
+    seed: "dentalux-gallery-5",
+    alt: "Patient smiling after a whitening treatment",
+    width: 480,
+    height: 600,
+    localImage: "/treat.jpeg",
+  },
   {
     id: "g6",
     seed: "dentalux-gallery-6",
@@ -28,7 +49,14 @@ export const galleryImages: GalleryImage[] = [
     height: 320,
     localImage: "/oral-cancer-screening.jpg",
   },
-  { id: "g7", seed: "dentalux-gallery-7", alt: "Kids' play corner in the waiting room", width: 480, height: 640 },
+  {
+    id: "g7",
+    seed: "dentalux-gallery-7",
+    alt: "Kids' play corner in the waiting room",
+    width: 480,
+    height: 640,
+    localImage: "/teeth-whitening.jpg",
+  },
   {
     id: "g8",
     seed: "dentalux-gallery-8",
@@ -37,7 +65,14 @@ export const galleryImages: GalleryImage[] = [
     height: 320,
     localImage: "/dental-fillings.jpg",
   },
-  { id: "g9", seed: "dentalux-gallery-9", alt: "Consultation room", width: 480, height: 600 },
+  {
+    id: "g9",
+    seed: "dentalux-gallery-9",
+    alt: "Consultation room",
+    width: 480,
+    height: 600,
+    localImage: "/bestt.jpeg",
+  },
   {
     id: "g10",
     seed: "dentalux-gallery-10",
@@ -54,5 +89,12 @@ export const galleryImages: GalleryImage[] = [
     height: 384,
     localImage: "/tmj-exam.jpg",
   },
-  { id: "g12", seed: "dentalux-gallery-12", alt: "Studio hallway with natural light", width: 480, height: 360 },
+  {
+    id: "g12",
+    seed: "dentalux-gallery-12",
+    alt: "Studio hallway with natural light",
+    width: 480,
+    height: 360,
+    localImage: "/reception.jpeg",
+  },
 ];

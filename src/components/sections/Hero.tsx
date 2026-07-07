@@ -5,7 +5,6 @@ import { motion } from "framer-motion";
 import { Star, Users, ShieldCheck, ArrowRight, Play } from "lucide-react";
 import { Button } from "@/components/ui/Button";
 import { fadeUp, fadeIn } from "@/lib/motion-variants";
-import { picsumUrl } from "@/lib/images";
 
 const statCards = [
   { icon: Star, label: "Google Rating", value: "4.9" },
@@ -18,7 +17,7 @@ export function Hero() {
     <section className="relative isolate overflow-hidden rounded-b-3xl">
       <div className="absolute inset-0 -z-10">
         <Image
-          src={picsumUrl("dentalux-hero", 1600, 900)}
+          src="/herooo.jpeg"
           alt="Dentist caring for a smiling patient"
           fill
           priority

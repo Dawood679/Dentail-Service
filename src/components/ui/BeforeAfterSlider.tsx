@@ -66,7 +66,7 @@ export function BeforeAfterSlider({
       onPointerUp={handlePointerUp}
     >
       <Image
-        src={picsumUrl(afterSeed, 900, 700)}
+src="/after.png"
         alt={`${afterLabel} treatment result`}
         fill
         className="object-cover"
@@ -77,8 +77,8 @@ export function BeforeAfterSlider({
         style={{ clipPath: `inset(0 ${100 - pct}% 0 0)` }}
       >
         <Image
-          src={picsumUrl(beforeSeed, 900, 700)}
-          alt={`${beforeLabel} treatment`}
+        src="/teeth-whitening.jpg"
+        alt={`${beforeLabel} treatment`}
           fill
           className="object-cover"
           sizes="(min-width: 640px) 50vw, 100vw"
